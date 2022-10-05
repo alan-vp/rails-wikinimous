@@ -1,3 +1,4 @@
 <ul><% @articles.each do |article| %></ul>
-  <li> <strong>Title: <%= article.title %></strong>.- Content: <%= article.content %></li>
+  <li> <strong>Title: <%= link_to article.title, article_path(article) %></strong>.- Content: <%= article.content %></li>
 <% end %>
+<%= link_to "Create new article", new_article_path %>
