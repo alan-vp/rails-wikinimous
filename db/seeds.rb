@@ -8,7 +8,7 @@
 require 'faker'
 puts 'Creating some articles'
 10.times do
-  Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem )
+  Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Hipster.paragraph)
 end
 puts '...'
 puts '...done!'
