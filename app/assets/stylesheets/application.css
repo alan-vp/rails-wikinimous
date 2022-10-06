@@ -17,3 +17,16 @@
  .article-item {
   list-style: none;
  }
+
+ .card-title-color {
+  color: #5958CA;
+ }
+
+ i {
+  color: #5958CA;
+ }
+
+ i:hover {
+  color: #5958CA;
+  opacity: 0.5;
+ }
